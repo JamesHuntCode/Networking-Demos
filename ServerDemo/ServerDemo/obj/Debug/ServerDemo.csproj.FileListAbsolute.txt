@@ -1,0 +1,7 @@
+C:\git\Networking-Demos\ServerDemo\ServerDemo\bin\Debug\ServerDemo.exe.config
+C:\git\Networking-Demos\ServerDemo\ServerDemo\bin\Debug\ServerDemo.exe
+C:\git\Networking-Demos\ServerDemo\ServerDemo\bin\Debug\ServerDemo.pdb
+C:\git\Networking-Demos\ServerDemo\ServerDemo\obj\Debug\ServerDemo.csprojResolveAssemblyReference.cache
+C:\git\Networking-Demos\ServerDemo\ServerDemo\obj\Debug\ServerDemo.csproj.CoreCompileInputs.cache
+C:\git\Networking-Demos\ServerDemo\ServerDemo\obj\Debug\ServerDemo.exe
+C:\git\Networking-Demos\ServerDemo\ServerDemo\obj\Debug\ServerDemo.pdb
