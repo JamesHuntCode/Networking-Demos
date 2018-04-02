@@ -21,13 +21,26 @@ namespace ServerDemo
             try
             {
                 server.Start();
-                Console.WriteLine("Connection successfull!");
+                Console.WriteLine("Connection successful!");
                 Console.Read();
             }
             catch (Exception err)
             {
                 Console.WriteLine(err.Message);
                 Console.Read();
+            }
+
+            // capture data sent from client to server
+            while (true)
+            {
+                client = server.AcceptTcpClient();
+
+                byte[] receivedBuffer = new byte[100];
+                NetworkStream stream = client.GetStream();
+
+                stream.Read(receivedBuffer, 0, receivedBuffer.Length);
+
+                string message = Encoding.ASCII.GetString(receivedBuffer, 0, receivedBuffer.Length);
             }
         }
     }
