@@ -22,7 +22,6 @@ namespace ServerDemo
             {
                 server.Start();
                 Console.WriteLine("Connection successful!");
-                Console.Read();
             }
             catch (Exception err)
             {
@@ -41,6 +40,9 @@ namespace ServerDemo
                 stream.Read(receivedBuffer, 0, receivedBuffer.Length);
 
                 string message = Encoding.ASCII.GetString(receivedBuffer, 0, receivedBuffer.Length);
+
+                Console.WriteLine(message);
+                Console.Read();
             }
         }
     }

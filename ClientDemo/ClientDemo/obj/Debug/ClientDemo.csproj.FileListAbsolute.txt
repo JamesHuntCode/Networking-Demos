@@ -1,0 +1,10 @@
+C:\git\Networking-Demos\ClientDemo\ClientDemo\bin\Debug\ClientDemo.exe.config
+C:\git\Networking-Demos\ClientDemo\ClientDemo\bin\Debug\ClientDemo.exe
+C:\git\Networking-Demos\ClientDemo\ClientDemo\bin\Debug\ClientDemo.pdb
+C:\git\Networking-Demos\ClientDemo\ClientDemo\obj\Debug\ClientDemo.csprojResolveAssemblyReference.cache
+C:\git\Networking-Demos\ClientDemo\ClientDemo\obj\Debug\ClientDemo.frmMain.resources
+C:\git\Networking-Demos\ClientDemo\ClientDemo\obj\Debug\ClientDemo.Properties.Resources.resources
+C:\git\Networking-Demos\ClientDemo\ClientDemo\obj\Debug\ClientDemo.csproj.GenerateResource.Cache
+C:\git\Networking-Demos\ClientDemo\ClientDemo\obj\Debug\ClientDemo.csproj.CoreCompileInputs.cache
+C:\git\Networking-Demos\ClientDemo\ClientDemo\obj\Debug\ClientDemo.exe
+C:\git\Networking-Demos\ClientDemo\ClientDemo\obj\Debug\ClientDemo.pdb
