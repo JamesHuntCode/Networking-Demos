@@ -35,11 +35,11 @@ namespace ClientDemo
             {
                 TcpClient client = new TcpClient(serverIP, portNumber);
 
-                int byteCount = Encoding.ASCII.GetByteCount(this.txtMessage.Text);
+                int byteCount = Encoding.ASCII.GetByteCount(this.txtMessage.Text + 1);
 
                 byte[] sendData = new byte[byteCount];
 
-                sendData = Encoding.ASCII.GetBytes(this.txtMessage.Text);
+                sendData = Encoding.ASCII.GetBytes(this.txtMessage.Text + ";");
 
                 NetworkStream stream = client.GetStream();
 

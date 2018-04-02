@@ -39,10 +39,20 @@ namespace ServerDemo
 
                 stream.Read(receivedBuffer, 0, receivedBuffer.Length);
 
-                string message = Encoding.ASCII.GetString(receivedBuffer, 0, receivedBuffer.Length);
+                StringBuilder message = new StringBuilder();
+                foreach (byte b in receivedBuffer)
+                {
+                    if (b.Equals(59)) // 59 = ";"
+                    {
+                        break;
+                    }
+                    else
+                    {
+                        message.Append(Convert.ToChar(b).ToString());
+                    }
+                }
 
-                Console.WriteLine(message);
-                Console.Read();
+                Console.WriteLine(message.ToString() + message.Length);
             }
         }
     }
