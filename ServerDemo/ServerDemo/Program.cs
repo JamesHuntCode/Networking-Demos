@@ -42,7 +42,7 @@ namespace ServerDemo
                 StringBuilder message = new StringBuilder();
                 foreach (byte b in receivedBuffer)
                 {
-                    if (b.Equals(59)) // 59 = ";"
+                    if (b.Equals(59)) // 59 = ";"... 00 = null...
                     {
                         break;
                     }
@@ -52,7 +52,7 @@ namespace ServerDemo
                     }
                 }
 
-                Console.WriteLine(message.ToString() + message.Length);
+                Console.WriteLine(message.ToString());
             }
         }
     }
