@@ -34,7 +34,7 @@ namespace ServerDemo
             {
                 client = server.AcceptTcpClient();
 
-                byte[] receivedBuffer = new byte[100];
+                byte[] receivedBuffer = new byte[200];
                 NetworkStream stream = client.GetStream();
 
                 stream.Read(receivedBuffer, 0, receivedBuffer.Length);
